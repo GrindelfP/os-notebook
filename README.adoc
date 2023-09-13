@@ -1,0 +1,4 @@
+== Operational Systems Notebook ==
+
+=== Description ===
+This is a project containing notes from university classes about operational systems. It is mostly scratches and standalone code snippets, which is dedicated to study several concepts about operational systems.
