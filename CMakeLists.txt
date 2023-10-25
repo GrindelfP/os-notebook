@@ -11,4 +11,8 @@ add_executable(OperatSysNotebook seminar_1/1_task_one.cpp
         seminar_3/5_task_five.cpp
         seminar_3/myCopy.cpp
         seminar_3/myCopy.hpp
-        seminar_3/6_task_six.cpp)
+        seminar_3/6_task_six.cpp
+        seminar_5/7_task_seven.cpp
+        seminar_8/8_task.c
+        seminar_9/phylosopher.h
+        seminar_9/eatingPhilosophersTask.c)
