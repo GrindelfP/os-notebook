@@ -43,4 +43,7 @@ add_executable(seminar-9-philosophers seminar_9/eating-philosophers.c)
 add_executable(seminar_11-9 seminar_11/task-9.cpp)
 
 # Seminar 12
-add_executable(seminar_12-10 seminar_12/10-task.cpp)
+add_executable(seminar_12-10 seminar_12/10-task.cpp
+        seminar_12/thread-functions.h
+        seminar_12/write.h
+        seminar_12/common.h)
