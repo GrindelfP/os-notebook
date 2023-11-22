@@ -8,7 +8,7 @@
 # Created on 2023-09-06 by Grindelf P.
 #
 # CMakeLists.txt file for the project.
-# The OS-Notebook is a storage place for my seminar tasks on the subject of operating systems in UNI.
+# The os-notebook project is a storage place for my seminar tasks on the subject of operating systems in UNI.
 # Each task has its own main() function so every task would have its own executable file.
 # The naming of files is inconsistent because the tasks in the course was not always of the same kind.
 # One great part of the task is a development of a shell, which in my case is called
@@ -16,7 +16,7 @@
 #
 
 cmake_minimum_required(VERSION 3.26)
-project(OS-Notebook)
+project(os-notebook)
 
 set(CMAKE_CXX_STANDARD 17)
 

@@ -2,3 +2,9 @@
 
 === Description ===
 This is a project containing notes from university classes about operational systems. It is mostly scratches and standalone code snippets, which is dedicated to study several concepts about operational systems.
+
+Each task has its own main() function so every task would have its own executable file.
+
+The naming of files is inconsistent because the tasks in the course was not always of the same kind.
+
+One great part of the task is a development of a shell, which in my case is called https://github.com/GrindelfP/gshell-light[GShellLight].
