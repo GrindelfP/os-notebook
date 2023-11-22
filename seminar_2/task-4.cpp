@@ -6,6 +6,8 @@
  * \___/|____/  |_| \_|\___/ |_| |_____|____/
  *
  * Created on 2023-09-13 by Grindelf P.
+ * Demo of receiving arguments from the command line.
+ * The rest of the seminar done in a separate project GShellLight (see https://github.com/GrindelfP/gshell-light).
  */
 
 #include <iostream>

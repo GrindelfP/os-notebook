@@ -6,6 +6,7 @@
  * \___/|____/  |_| \_|\___/ |_| |_____|____/
  *
  * Created on 2023-09-06 by Grindelf P.
+ * Multiple processes creation. Parent waits for all children to finish.
  */
 
 #include <unistd.h>

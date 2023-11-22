@@ -6,9 +6,10 @@
  * \___/|____/  |_| \_|\___/ |_| |_____|____/
  *
  * Created on 2023-09-13 by Grindelf P.
+ * Functionality of copying one file into another.
  */
 
-#include "myCopy.hpp"
+#include "my-copy.hpp"
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
@@ -25,7 +26,7 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-/*
+/**
  * Copies fileFrom to fileTo. Returns 0 if success, -1 if error occurred.
  */
 int myCopy(char *fileFrom, char *fileTo) {

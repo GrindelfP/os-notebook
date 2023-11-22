@@ -1,0 +1,8 @@
+= Task List =
+
+1. ... some seminars
+2. MiniShell
+3. File operations
+4. Dining philosophers
+5. Multiple sorting algorithms in different processes
+6. Multiple sorting algorithms in different threads within one process

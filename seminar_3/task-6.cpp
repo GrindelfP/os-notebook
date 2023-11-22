@@ -6,26 +6,15 @@
  * \___/|____/  |_| \_|\___/ |_| |_____|____/
  *
  * Created on 2023-09-13 by Grindelf P.
+ * Stream redirection.
  */
-
 
 #include <fcntl.h>
 #include <iostream>
 #include <unistd.h>
 
 int main() {
-    int fd = open("bb", O_CREAT | O_RDWR, 0666);
-    std::cout << fd << std::endl;
-    write(fd, "Hello there!", 12);
-
-    char buf[100];
-
-    int k = read(fd, buf, 2);
-    int k2 = read(fd, buf, 12);
-
-    std::cout << k << std::endl;
-    std::cout << k2 << std::endl;
-
-    close(fd);
-    return 0;
+    int fd = open("new_file_6.adoc", O_CREAT | O_WRONLY, 0666);
+    dup2(fd, 1);
+    std::cout << "== Here we go again! ==\n";
 }

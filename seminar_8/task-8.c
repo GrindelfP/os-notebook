@@ -6,6 +6,8 @@
  * \___/|____/  |_| \_|\___/ |_| |_____|____/
  *
  * Created on 2023-10-18 by Grindelf P.
+ *
+ * Semaphore operations.
  */
 
 #include <sys/shm.h>
