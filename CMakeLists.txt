@@ -7,9 +7,16 @@
 #
 # Created on 2023-09-06 by Grindelf P.
 #
+# CMakeLists.txt file for the project.
+# The OS-Notebook is a storage place for my seminar tasks on the subject of operating systems in UNI.
+# Each task has its own main() function so every task would have its own executable file.
+# The naming of files is inconsistent because the tasks in the course was not always of the same kind.
+# One great part of the task is a development of a shell, which in my case is called
+# GShellLight and is placed in a separate repository (see https://github.com/GrindelfP/gshell-light).
+#
 
 cmake_minimum_required(VERSION 3.26)
-project(os_3rdterm)
+project(OS-Notebook)
 
 set(CMAKE_CXX_STANDARD 17)
 
