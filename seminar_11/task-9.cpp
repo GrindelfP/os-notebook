@@ -15,6 +15,7 @@
 #include <cstdio>
 #include <iostream>
 #include <fstream>
+#include <random>
 #include "shell-sort.h"
 #include "quick-sort.h"
 #include "bubble-sort.h"
@@ -38,8 +39,12 @@ void writeStream(int *array, char *fileName) {
 int main() {
     int *array = new int[N];
 
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<int> dis(0, N - 1);
+
     for (int i = 0; i < N; ++i) {
-        array[i] = rand() % N;
+        array[i] = dis(gen);
     }
 
     if (!fork()) {

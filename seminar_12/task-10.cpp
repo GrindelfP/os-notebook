@@ -12,6 +12,7 @@
 
 #include <pthread.h>
 #include <iostream>
+#include <random>
 #include "common.h"
 #include "thread-functions.h"
 
@@ -20,8 +21,12 @@ int main() {
 
     int *array = new int[N];
 
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<int> dis(0, N - 1);
+
     for (int i = 0; i < N; ++i) {
-        array[i] = rand() % N;
+        array[i] = dis(gen);
     }
 
     pthread_t bubbleThread;
