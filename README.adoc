@@ -7,4 +7,6 @@ Each task has its own main() function so every task would have its own executabl
 
 The naming of files is inconsistent because the tasks in the course was not always of the same kind.
 
-One great part of the task is a development of a shell, which in my case is called https://github.com/GrindelfP/gshell-light[GShellLight].
+One great part of the task is a development of a shell, which in my case is called https://github.com/GrindelfP/gshell-light[GShellLight] and stored in its own repository.
+
+The description of each task is provided in link:task-list.adoc[task list].

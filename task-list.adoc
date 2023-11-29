@@ -1,8 +1,70 @@
 = Task List =
 
-1. ... some seminars
-2. MiniShell (done in a separate project https://github.com/GrindelfP/gshell-light[GShellLight]).
-3. File operations
-4. Dining philosophers
-5. Multiple sorting algorithms in different processes
-6. Multiple sorting algorithms in different threads within one process
+1. <<task1>>.
+2. <<task2>>.
+3. <<task3>>.
+4. <<task4>>.
+5. <<task5>>.
+6. <<task6>>.
+7. <<task7>>.
+8. <<task8>>.
+9. <<task9>>.
+10. <<task10>>.
+11. <<task11>>.
+12. <<task12>>.
+
+[[task1]]
+== Introduction to processes ==
+Some simple examples of processes creation.
+
+[[task2]]
+== Multiple processes creation. Parent waits for all children to finish. ==
+Learned how to create multiple processes and how to wait for them to finish.
+
+[[task3]]
+== Simple example of execlp() function and the execution of a shell command in a C/C++ program. ==
+Learned how to execute a shell command in a C/C++ program.
+
+[[task4]]
+== Demo of receiving arguments from the command line. ==
+Learned how to receive arguments from the command line into the main() and use them to execute a shell command.
+
+[[task5]]
+== MiniShell ==
+See https://github.com/GrindelfP/gshell-light/blob/main/README.adoc[GShellLight/README.adoc].
+
+[[task6]]
+== File operations ==
+Learned how to open, read, write and close files.
+
+[[task7]]
+== Stream redirection ==
+Learned how to redirect streams, e.g. how to redirect the std::cout (stream 1) to a file.
+
+[[task8]]
+== Copying one file into another ==
+The program copies one file into another, using the read() and write() functions and buffer of fixed size. If the file size exceeds the size of a buffer (e.g. 1024 bytes), the program copies the file in chunks of 1024 bytes.
+
+[[task9]]
+== Operations with semaphores ==
+Learned how to create, initialize, lock and unlock semaphores to synchronize processes, working with shared memory.
+
+[[task10]]
+== Dining philosophers (unfinished) ==
+The program is aimed to solve the dining philosophers problem.
+
+The problem is that there are 4 philosophers sitting at a round table. There are 4 forks on the table. Each philosopher needs two forks to eat. The philosophers can only take the forks on their left and right. The problem is to organize the process of eating so that no philosopher starves.
+
+The program implements processes and semaphores. The processes represent the philosophers.
+
+The program is unfinished.
+
+[[task11]]
+== Multiple sorting algorithms in different processes ==
+The task is to sort a random array of integers using different sorting algorithms such as bubble sort, shell sort and quick sort in different processes.
+
+[[task12]]
+== Multiple sorting algorithms in different threads within one process ==
+The task is to sort a random array of integers using different sorting algorithms such as bubble sort, shell sort and quick sort in different threads within one process.
+
+The key difference from the previous task is that the sorting algorithms are executed in different threads within one process, so they need to copy the initial array not to modify it for other threads and the algorithms of each thread should be stored in a separate functions.
