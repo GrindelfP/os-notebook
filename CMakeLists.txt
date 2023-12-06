@@ -47,3 +47,11 @@ add_executable(seminar_12-10 seminar_12/task-10.cpp
         seminar_12/thread-functions.h
         seminar_12/write.h
         seminar_12/common.h)
+
+# Seminar 13
+add_executable(seminar_13-11-1 seminar-13/messenger-one.cpp
+        seminar-13/message.h
+        seminar-13/common.h)
+add_executable(seminar_13-11-2 seminar-13/messenger-two.cpp
+        seminar-13/message.h
+        seminar-13/common.h)

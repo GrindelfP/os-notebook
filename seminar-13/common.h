@@ -5,16 +5,19 @@
  *| |_| |___) | | |\  | |_| || | | |___ ___) |
  * \___/|____/  |_| \_|\___/ |_| |_____|____/
  *
- * Created on 2023-11-22 by Grindelf P.
+ * Created on 2023-12-06 by Grindelf P.
  *
- * Common header file for task with threads.
+ * Messaging task. Header file for storing common headers for both communication programs.
  */
 
 #ifndef COMMON_H
 #define COMMON_H
 
-#define N 1000
-#define START 0
-#define END (N - 1)
+#include <sys/msg.h>
+#include <iostream>
 
-#endif //COMMON_H
+#define queue_key 122331
+#define SENDER_TYPE 1
+#define RECEIVER_TYPE 2
+
+#endif

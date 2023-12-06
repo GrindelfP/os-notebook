@@ -5,16 +5,17 @@
  *| |_| |___) | | |\  | |_| || | | |___ ___) |
  * \___/|____/  |_| \_|\___/ |_| |_____|____/
  *
- * Created on 2023-11-22 by Grindelf P.
+ * Created on 2023-12-06 by Grindelf P.
  *
- * Common header file for task with threads.
+ * Messaging task. Header file for storing message structure.
  */
 
-#ifndef COMMON_H
-#define COMMON_H
+#ifndef MESSAGE_H
+#define MESSAGE_H
 
-#define N 1000
-#define START 0
-#define END (N - 1)
+struct Message {
+    long type;
+    char text[1024];
+} typedef Message;
 
-#endif //COMMON_H
+#endif

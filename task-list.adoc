@@ -67,4 +67,4 @@ The task is to sort a random array of integers using different sorting algorithm
 == Multiple sorting algorithms in different threads within one process ==
 The task is to sort a random array of integers using different sorting algorithms such as bubble sort, shell sort and quick sort in different threads within one process.
 
-The key difference from the previous task is that the sorting algorithms are executed in different threads within one process, so they need to copy the initial array not to modify it for other threads and the algorithms of each thread should be stored in a separate functions.
+The queue_key difference from the previous task is that the sorting algorithms are executed in different threads within one process, so they need to copy the initial array not to modify it for other threads and the algorithms of each thread should be stored in a separate functions.
