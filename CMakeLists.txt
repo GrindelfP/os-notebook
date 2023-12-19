@@ -55,3 +55,6 @@ add_executable(seminar_13-11-1 seminar-13/messenger-one.cpp
 add_executable(seminar_13-11-2 seminar-13/messenger-two.cpp
         seminar-13/message.h
         seminar-13/common.h)
+
+# Seminar 14
+add_executable(seminar_14-12-1 seminar-14/single-messenger.cpp)

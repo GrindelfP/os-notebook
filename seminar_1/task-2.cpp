@@ -18,7 +18,7 @@ int main() {
 
     for (int i = 0; i < 3; ++i) {
         if (!fork()) {
-            printFour("Child", i + 1, getpid(), getppid);
+            printFour("Child", i + 1, getpid(), getppid());
             return 0;
         }
     }
